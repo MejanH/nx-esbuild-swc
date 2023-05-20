@@ -1,0 +1,14 @@
+{
+  "name": "is-odd",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dist/index.js",
+  "devDependencies": {},
+  "scripts": {
+    "build": "esbuild index.ts --bundle --minify --outdir=dist",
+    "dev": "ts-node-dev --respawn -T --transpiler ts-node/transpilers/swc index.ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
